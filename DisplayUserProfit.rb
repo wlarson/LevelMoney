@@ -23,7 +23,7 @@ def getAllTransactionsForUser
     warn results['error'] 
     return []
   else
-    results['transactions']
+    return results['transactions']
   end
 end
 
