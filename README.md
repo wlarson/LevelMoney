@@ -10,14 +10,14 @@ Future improvement ideas:
 
 
 Sample run with --help flag.
-
+<pre>
 Wills-MBP:LevelMoney will$ ./DisplayUserProfit.rb --help
 Usage: DisplayUserProfit.rb [options]
     -i, --ignore-donuts              Disregard all donut-related transactions from the spending.
 
-
+</pre>
 Sample run with --ignore-donuts flag.
-
+<pre>
 Wills-MBP:LevelMoney will$ ./DisplayUserProfit.rb --ignore-donuts
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -52,3 +52,4 @@ YYYY-MM	Spent		Income
 2016-12	-30784600	39662500
 2017-01	-28365900	0
 Average	-34028408	33456521
+</pre>
